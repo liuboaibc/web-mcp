@@ -83,6 +83,7 @@ bridge.start();
 - 架构说明：`docs/architecture.md`
 - 快速上手：`docs/quick-start.md`
 - 安全基线：`docs/security.md`
+- 历史项目改造 Prompt：`docs/legacy-retrofit-prompt.md`
 
 ## 安全建议
 

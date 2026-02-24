@@ -83,6 +83,7 @@ See full instructions in `docs/quick-start.md`.
 - Architecture: `docs/architecture.md`
 - Quick start: `docs/quick-start.md`
 - Security baseline: `docs/security.md`
+- Legacy retrofit prompt: `docs/legacy-retrofit-prompt.md`
 
 ## Security Notes
 
