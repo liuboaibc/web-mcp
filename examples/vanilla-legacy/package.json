@@ -1,0 +1,10 @@
+{
+  "name": "vanilla-legacy-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@web-native-mcp/extension-bridge": "0.1.0",
+    "@web-native-mcp/web-bridge-sdk": "0.1.0"
+  }
+}

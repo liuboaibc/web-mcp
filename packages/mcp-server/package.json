@@ -1,0 +1,21 @@
+{
+  "name": "@web-native-mcp/mcp-server",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "dist/server.js",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@web-native-mcp/protocol": "0.1.0",
+    "ws": "^8.18.3"
+  }
+}

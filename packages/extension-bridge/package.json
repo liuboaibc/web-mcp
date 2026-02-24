@@ -1,0 +1,20 @@
+{
+  "name": "@web-native-mcp/extension-bridge",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "dist/contentScript.js",
+  "types": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@web-native-mcp/protocol": "0.1.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "react-legacy-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@web-native-mcp/adapters": "0.1.0",
+    "@web-native-mcp/web-bridge-sdk": "0.1.0"
+  }
+}

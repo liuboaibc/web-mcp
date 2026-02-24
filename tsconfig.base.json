@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "baseUrl": ".",
+    "paths": {
+      "@web-native-mcp/protocol": [
+        "packages/protocol/src/index.ts"
+      ],
+      "@web-native-mcp/mcp-server": [
+        "packages/mcp-server/src/index.ts"
+      ],
+      "@web-native-mcp/web-bridge-sdk": [
+        "packages/web-bridge-sdk/src/index.ts"
+      ],
+      "@web-native-mcp/extension-bridge": [
+        "packages/extension-bridge/src/index.ts"
+      ],
+      "@web-native-mcp/adapters": [
+        "packages/adapters/src/index.ts"
+      ]
+    },
+    "strict": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
