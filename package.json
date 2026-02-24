@@ -3,6 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "description": "Web-native MCP framework to invoke in-page methods directly.",
+  "license": "MIT",
+  "homepage": "https://github.com/liuboaibc/web-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuboaibc/web-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liuboaibc/web-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "web-native",
+    "browser-automation",
+    "legacy-modernization",
+    "typescript"
+  ],
   "workspaces": [
     "packages/*",
     "examples/*"

@@ -6,6 +6,20 @@
 
 Web-native MCP framework that lets AI call in-page business methods directly, instead of brittle DOM click automation.
 
+## Demo (3 Minutes)
+
+Use `docs/quick-demo.md` to run and record a minimal end-to-end demo:
+
+1. Start MCP server and open an integrated page.
+2. Call `listPageMethods`.
+3. Call `invokePageMethod`.
+4. Unmount/dispose and verify safe failure.
+5. Verify one governance rejection (rate/session/policy).
+
+Demo asset recommendation:
+
+- Add your GIF at `docs/assets/demo.gif` and embed it here for project homepage visibility.
+
 ## Why This Project
 
 - Replace UI simulation with direct method invocation (`listPageMethods` + `invokePageMethod`).
@@ -82,8 +96,11 @@ See full instructions in `docs/quick-start.md`.
 
 - Architecture: `docs/architecture.md`
 - Quick start: `docs/quick-start.md`
+- Quick demo: `docs/quick-demo.md`
 - Security baseline: `docs/security.md`
 - Legacy retrofit prompt: `docs/legacy-retrofit-prompt.md`
+- Release checklist: `docs/release-checklist.md`
+- Changelog: `CHANGELOG.md`
 
 ## Security Notes
 
@@ -91,3 +108,9 @@ See full instructions in `docs/quick-start.md`.
 - In production, prefer `WEB_MCP_ALLOW_QUERY_TOKEN=false`.
 - Restrict origins with `WEB_MCP_ALLOWED_ORIGINS`.
 - Restrict callable surface with `WEB_MCP_METHOD_ALLOWLIST`.
+
+## Community
+
+- Contributing guide: `CONTRIBUTING.md`
+- Security policy: `SECURITY.md`
+- License: `LICENSE`

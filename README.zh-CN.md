@@ -6,6 +6,20 @@
 
 一个 Web-native 的 MCP 框架，让 AI 直接调用页面内业务方法，而不是依赖脆弱的 DOM 点击自动化。
 
+## 三分钟演示
+
+使用 `docs/quick-demo.md` 快速跑通最小链路：
+
+1. 启动 MCP 服务并打开已接入页面。
+2. 调用 `listPageMethods`。
+3. 调用 `invokePageMethod`。
+4. 卸载/清理后验证安全失败。
+5. 验证一次治理策略拦截（限流/会话/策略）。
+
+演示素材建议：
+
+- 将 GIF 放在 `docs/assets/demo.gif`，并在首页嵌入，提升可见度和转化率。
+
 ## 项目目标
 
 - 用方法调用替代 UI 模拟（`listPageMethods` + `invokePageMethod`）。
@@ -82,8 +96,11 @@ bridge.start();
 
 - 架构说明：`docs/architecture.md`
 - 快速上手：`docs/quick-start.md`
+- 快速演示：`docs/quick-demo.md`
 - 安全基线：`docs/security.md`
 - 历史项目改造 Prompt：`docs/legacy-retrofit-prompt.md`
+- 发布清单：`docs/release-checklist.md`
+- 变更记录：`CHANGELOG.md`
 
 ## 安全建议
 
@@ -91,3 +108,9 @@ bridge.start();
 - 生产环境建议设置 `WEB_MCP_ALLOW_QUERY_TOKEN=false`。
 - 通过 `WEB_MCP_ALLOWED_ORIGINS` 限制来源。
 - 通过 `WEB_MCP_METHOD_ALLOWLIST` 收敛可调用方法面。
+
+## 社区协作
+
+- 贡献指南：`CONTRIBUTING.md`
+- 安全策略：`SECURITY.md`
+- 开源许可：`LICENSE`
